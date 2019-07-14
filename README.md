@@ -32,14 +32,14 @@ bash
 sudo apt update
 $ sudo apt-get install nodejs
 
-## 3 npm Setup
+## 3. npm Setup
 
 bash
 sudo apt install npm
 
 
 
-## 5. Visual Studio Code - Your text editor
+## 4. Visual Studio Code - Your text editor
 
 Go to https://code.visualstudio.com/Download# and download the .deb file. 
 
@@ -48,7 +48,7 @@ cd Downloads/
 sudo apt install ./<file>.deb
 
 
-## 6. Oh-my-zsh - Pimping your terminal
+## 5. Oh-my-zsh - Pimping your terminal
 
 We will use the shell named `zsh` instead of `bash`, the default one.
 
@@ -56,7 +56,7 @@ bash
 sudo apt install zsh
 
 
-## 7. GitHub
+## 6. GitHub
 
 We need to generate SSH keys which are going to be used by GitHub and Heroku
 to authenticate you. Think of it as a way to log in, but different from the
@@ -104,7 +104,7 @@ $ ssh-add ~/.ssh/id_rsa
 [Add the SSH key to your GitHub account.](https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account)
 
 
-## 9. Postgresql
+## 7. Postgresql
 
 Later down the weeks we'll talk about SQL and Databases the one we'll be concentrating on his Postgresql,
 an open-source robust and production-ready database. 
@@ -134,3 +134,12 @@ postgres-# \q
 
 # Postman
 Postman is used to call http request. This would be useful for testing API later on in the course. [Download here](https://www.getpostman.com/downloads/).
+
+## 8. Last part! Install Visual studio code plugins.
+
+Go to your visual studio code application and open up your extensions.(shift + windows button + x)
+
+1. Search `material theme` and hit install
+2. Search `vetur` and also install
+3. Reload your visual studio code editor and you should see the changes
+
